@@ -4,7 +4,8 @@
 
 .App-header {
   background-color: #282c34;
-  height: 200px;
+  height: 133px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,15 +14,9 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+svg {
+  width: 600px;
+  height: 400px;
+  background-color: #eee;
+  overflow: visible;
 }
